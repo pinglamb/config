@@ -5,7 +5,7 @@ require 'config/options'
 require 'config/version'
 require 'config/engine' if defined?(::Rails)
 require 'config/sources/yaml_source'
-require 'deep_merge'
+require 'config/deep_merge'
 
 module Config
   # ensures the setup only gets run once

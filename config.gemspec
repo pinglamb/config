@@ -25,7 +25,6 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 2.0.0"
 
   s.add_dependency "activesupport",           ">= 3.0"
-  s.add_dependency "deep_merge",              "~> 1.0.0"
 
   s.add_development_dependency "bundler",     "~> 1.10.5"
   s.add_development_dependency "rake"
